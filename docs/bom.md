@@ -20,8 +20,8 @@ This document lists the core hardware components required to assemble a fully fu
 
 | # | Accessory | Description | Example / Supplier | Notes |
 |---|------------|--------------|--------------------|-------|
-| 4 | **USB Wall Charger (x2)** | 5 V / 2 A adaptive fast chargers for powering the Feather HUZZAH or charging LiPo batteries. | Example: “Caricabatterie USB da 2 Pezzi, Adattatore di Ricarica Rapido per Samsung Galaxy” (Amazon / generic) | Any high-quality 5 V 2 A USB adapter is suitable. |
-| 5 | **Micro-USB Type A Male Jack PCB Mount Connector** | Male Micro-USB plug for integrating power or programming access into custom PCB housings. | Example: “Micro USB Tipo A Maschio Jack Pocket Connector Montaggio PBC” (generic electronics supplier) | Optional: use if integrating into custom PCB or enclosure. |
+| 4 | **USB Wall Charger (x2)** | 5 V / 2 A adaptive fast chargers for powering the Feather HUZZAH or charging LiPo batteries. | Example: “Caricabatterie USB da 2 Pezzi, Adattatore di Ricarica Rapido per Samsung Galaxy” (Amazon / generic) | **Not** any high-quality 5 V 2 A USB adapter is suitable. |
+| 5 | **Micro-USB Type A Male Jack PCB Mount Connector** | Male Micro-USB plug for integrating power or programming access into custom PCB housings. | Example: “Micro USB Tipo A Maschio Jack Pocket Connector Montaggio PBC” (generic electronics supplier) | Needed to plug the device on wall socket. |
 
 ---
 
