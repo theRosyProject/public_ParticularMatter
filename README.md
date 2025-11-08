@@ -6,7 +6,7 @@ The project includes both:
 - a **fully functional compiled firmware** (`firmware.bin`) ready to be installed on an ESP8266 device using **ESPHome**, and
 - an **educational, non‑functional C++ source** (`ParticularMatter_public.cpp`) that documents the firmware architecture, logic flow, and key implementation concepts.
 
-**Particular Matter Device STL** can be found at: [ESPHome](https://makerworld.com/en/models/1912756-particulair-in-1)
+**Particular Matter Device STL** can be found at: [ParticulAIR-In 1](https://makerworld.com/en/models/1912756-particulair-in-1)
 
 ---
 
