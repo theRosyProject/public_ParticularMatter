@@ -8,6 +8,8 @@ The project includes both:
 
 **Particular Matter Device STL** can be found at: [ParticulAIR-In 1](https://makerworld.com/en/models/1912756-particulair-in-1)
 
+**List of hardware component** can be found at: `docs/bom.md` in this repo
+
 ---
 
 ## 📂 Repository structure
