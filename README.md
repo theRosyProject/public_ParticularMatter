@@ -12,15 +12,19 @@ The project includes both:
 
 ```
 public_ParticularMatter/
-├── LICENSE                      # License information (MIT recommended)
-├── README.md                    # Main documentation (this file)
-├── public_ParticularMatter.Rproj # Project metadata
+├── LICENSE                         # License information (MIT recommended)
+├── README.md                       # Main documentation (this file)
+├── docs/                           # Additional documentation
+    ├── bom.md                      # Billing of material (list of hardware for building the Particular Matter device)
+    └── dissemination material/     # Multimedia, pdf, ...
+        └── PM_LorenzoSeminar.pdf# Slides containing on overview of the Particular Matter project
+├── public_ParticularMatter.Rproj   # Project metadata
 └── src/
-    ├── build/                   # Working build artifacts and compiled firmware
+    ├── build/                      # Working build artifacts and compiled firmware
     │   └── esp8266/
-    │       ├── firmware.bin     # ✅ Working firmware (use with ESPHome)
-    │       ├── firmware.elf     # Compiled ELF (debug info)
-    │       └── ...              # Intermediate build objects and libraries
+    │       ├── firmware.bin        # ✅ Working firmware (use with ESPHome)
+    │       ├── firmware.elf        # Compiled ELF (debug info)
+    │       └── ...                 # Intermediate build objects and libraries
     └── cpp/
         ├── ParticularMatter_public.cpp  # 🧩 Educational, non‑functional firmware skeleton
         └── README.md                    # Notes specific to the C++ source
