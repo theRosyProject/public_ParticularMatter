@@ -2,3 +2,23 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Wiring files – only .md and .html are tracked; locally-generated formats are ignored
+src/wiring/*
+!src/wiring/*.md
+!src/wiring/*.html
