@@ -18,6 +18,9 @@ $RECYCLE.BIN/
 # Linux
 *~
 
+# Sensor datasheets / vendor docs stored locally
+docs/senseair/
+
 # Wiring files – only .md and .html are tracked; locally-generated formats are ignored
 src/wiring/*
 !src/wiring/*.md
