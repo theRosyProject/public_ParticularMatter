@@ -21,4 +21,3 @@ $RECYCLE.BIN/
 # Wiring files – only .md and .html are tracked; locally-generated formats are ignored
 src/wiring/*
 !src/wiring/*.md
-!src/wiring/*.html
