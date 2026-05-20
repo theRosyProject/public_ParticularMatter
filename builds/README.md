@@ -9,3 +9,5 @@ If you just want to flash the firmware without building from source, grab the bi
 | Folder | Platform |
 |--------|----------|
 | `esp32/` | ESP32 |
+| `esp8266/` | ESP8266 |
+
