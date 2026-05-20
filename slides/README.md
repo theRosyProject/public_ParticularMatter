@@ -1,6 +1,6 @@
 # Slides
 
-Presentation and dissemination materials for the ParticulAir project.
+Presentation and dissemination materials for the ParticularMatter project.
 
 | File | Event |
 |------|-------|
