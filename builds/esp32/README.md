@@ -29,10 +29,3 @@ esptool --chip esp32 --port PORT --baud 921600 write-flash 0x1000 v1.4.0.bin
 ### Notes
 - Hold the BOOT button on the device before flashing, or ensure the device is in download mode <-- THIS IS NOT NECESSARY ON THE FEATHER ESP32 PLATFORM WE'RE USING
 - If flashing fails, try a lower baud rate (e.g. `--baud 115200`)
-
-
-# ESP8266 Firmware - legacy
-
-*add guidelines* for non expert for using [https://web.esphome.io/](https://web.esphome.io/)
-
-
