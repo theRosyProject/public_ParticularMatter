@@ -4,7 +4,7 @@ ParticularMatter is an open-source air quality monitoring device built around an
 
 This repository is the public release — it contains **firmware binaries**, **technical documentation**, and **presentation materials**. No source code is included.
 
-**3D model (enclosure):** [ParticularMatter-In 1 on MakerWorld](https://makerworld.com/en/models/1912756-particulair-in-1)
+**3D model (enclosure):** [ParticulAIR-In 1 on MakerWorld](https://makerworld.com/en/models/1912756-particulair-in-1)
 
 ---
 
