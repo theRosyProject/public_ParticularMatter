@@ -1,4 +1,6 @@
-# v1.4.0
+# ESP32 Firmware — v1.4.0
+
+Pre-built firmware for ESP32 device.
 
 ## Flashing Instructions
 
