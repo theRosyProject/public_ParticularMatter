@@ -9,7 +9,7 @@ Find your device in the table below, download the `.bin` file from the correspon
 | Device | Platform | Latest | Folder |
 |--------|----------|--------|--------|
 | ParticularAir-1 | ESP8266 | — | — |
-| ParticularAir-Kongqi | ESP32 | [v1.4.0](esp32/v1.4.0.bin) | [esp32/](esp32/) |
+| ParticularAir-Kongqi | ESP32 | [v1.4.0](esp32/ParticularAir-Kongqi/v1.4.0.bin) | [esp32/](esp32/ParticularAir-Kongqi/) |
 
 ---
 
