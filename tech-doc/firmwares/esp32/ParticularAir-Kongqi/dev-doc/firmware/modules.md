@@ -19,6 +19,31 @@ Shared headers used across all modules. Not a class — these are just type and 
 
 ---
 
+## GenericSensorBase
+
+Abstract template base class for all sensor drivers. Decouples the sensor read cadence from the main loop.
+
+**Responsibilities:**
+- Accumulate raw samples over a configurable `pollIntervalMs` window via non-blocking `poll()`
+- Expose `consumeAggregated()` which calculates the running average across all samples collected since the last call, then resets the accumulator
+- Concrete drivers (PMS5003, SenseAir S8, BME280, NEO-6M) extend this class and implement only the hardware-read logic
+
+**Design note:** All sensor drivers are polled unconditionally on every main loop iteration. `GenericSensorBase` internally gates the actual hardware read behind an elapsed-time check, so the call overhead when the interval has not elapsed is a single `millis()` comparison.
+
+---
+
+## Logger
+
+Dual-sink logging system. All firmware-wide log calls (`LOGI`, `LOGW`, `LOGE`, `LOGD`) route through this module.
+
+**Responsibilities:**
+- **SD sink:** Appends to `/log/system.log`; rotates to `/log/system.log.1` when line count exceeds 1000. Writes are buffered in RAM and flushed when the buffer reaches 1 KB, 2 000 ms have elapsed since the last flush, or an `ERROR`-level message is received
+- **RAM ring buffer:** Retains the last 200 log entries (≤ 96 chars each) in a circular buffer; served directly by `GET /api/system/logs` without any SD I/O
+- Reentrance guard prevents infinite recursion if a log flush itself triggers a log call (e.g., on SD write failure)
+- `maintain()` must be called each loop iteration to drive the timed flush
+
+---
+
 ## ESPConfig
 
 Persistent configuration stored in ESP32 NVS (Non-Volatile Storage). Survives reboots and factory resets can be triggered explicitly.
