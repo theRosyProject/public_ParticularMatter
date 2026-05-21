@@ -144,6 +144,8 @@ Select your Wi-Fi network, enter the password, and save. The device will reboot,
 
 Go to the **Node settings** page, enter the one-time key provided by the backend, and complete pairing. Once paired, the device receives its Node ID and begins MQTT publishing.
 
+> Need a one-time key? Register your device at [particularmatter.org/setup](https://staging.particularmatter.org/setup.html) to obtain one.
+
 <!-- ![Node pairing flow](./assets/step4-pairing.png) -->
 
 ---
