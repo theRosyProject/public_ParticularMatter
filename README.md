@@ -10,39 +10,23 @@ This repository is the public release — it contains **firmware binaries**, **t
 
 ```
 public_ParticularMatter/
-├── builds/          # Pre-built firmware binaries and flashing instructions
-│   ├── esp32/       # ESP32 firmware (current platform)
-│   └── esp8266/     # ESP8266 firmware (legacy platform)
-├── slides/          # Presentation and dissemination materials
-├── tech-doc/        # Technical documentation (API, firmware internals, types, wiring)
-└── LICENSE          # GPL v3
+├── builds/                          # Pre-built firmware binaries and flashing instructions
+│   ├── esp32/                       # ESP32 firmware (current platform)
+│   │   └── ParticularAir-Kongqi/    # ParticularAir-Kongqi device (v1.4.0)
+│   └── esp8266/                     # ESP8266 firmware (legacy)
+├── slides/                          # Presentation and dissemination materials
+├── tech-doc/                        # Technical documentation
+│   └── firmwares/
+│       └── esp32/
+│           └── ParticularAir-Kongqi/  # API docs, firmware modules, wiring, types
+└── LICENSE                          # GPL v3
 ```
 
 ---
 
 ## Flashing the firmware
 
-### ESP32
-
-Device: **ParticularAir-Kongqi** — see [builds/esp32/ParticularAir-Kongqi/README.md](builds/esp32/ParticularAir-Kongqi/README.md) for full specs and flashing instructions.
-
-Quick start:
-
-```bash
-pip install esptool
-esptool --chip esp32 --port PORT --baud 921600 write-flash 0x1000 builds/esp32/ParticularAir-Kongqi/v1.4.0.bin
-```
-
-Replace `PORT` with your serial port (e.g. `/dev/tty.usbserial-0001` on macOS, `COM3` on Windows).
-
-### ESP8266
-
-Legacy firmware is available at `builds/esp8266/ESP8266-legacy.bin`. See [builds/esp8266/README.md](builds/esp8266/README.md) for flashing instructions and wiring.
-
-```bash
-pip install esptool
-esptool --chip esp8266 --port PORT --baud 460800 write-flash 0x0 builds/esp8266/ESP8266-legacy.bin
-```
+See [builds/README.md](builds/README.md) for firmware downloads and step-by-step flashing instructions for both ESP32 and ESP8266.
 
 ---
 
