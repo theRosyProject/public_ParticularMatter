@@ -138,7 +138,9 @@ Connect your phone or computer to the hotspot. The setup page should appear auto
 
 Select your Wi-Fi network, enter the password, and save. The device will reboot, connect to your home network, and keep the hotspot running for future access.
 
-<!-- ![Wi-Fi credentials setup](./assets/step3-wifi.png) -->
+![Wi-Fi network scan](./assets/screen-wifi-scan.png)
+
+![Wi-Fi connect](./assets/screen-wifi-connect.png)
 
 ### Step 4 — Pair with the backend
 
@@ -146,7 +148,7 @@ Go to the **Node settings** page, enter the one-time key provided by the backend
 
 > Need a one-time key? Register your device at [particularmatter.org/setup](https://staging.particularmatter.org/setup.html) to obtain one.
 
-<!-- ![Node pairing flow](./assets/step4-pairing.png) -->
+![Node pairing](./assets/screen-node-pairing.png)
 
 ---
 
